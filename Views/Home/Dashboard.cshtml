@@ -1,0 +1,73 @@
+@model List<MeetUp>
+    <h1 class="text-start">Dojo Meet Up Center</h1>
+<div class="d-flex login">
+    <h3 class="mr-4">Welcome, @ViewBag.name.FirstName!</h3>
+<form action="/users/logout" method="post" >
+    <input type="submit" class="btn btn-danger" value="Logout">
+</form>
+</div>
+<hr><table class="table table-striped">
+    <thead>
+        <tr>
+            <th scope="col">Meet Up</th>
+            <th scope="col">Date</th>
+            <th scope="col">Duration</th>
+            <th scope="col">Event Coordinator</th>
+            <th scope="col">Guests</th>
+            <th scope="col">Action</th>
+        </tr>
+    </thead>
+    <tbody>
+        @foreach (var i in Model)
+        {
+            if(i.DateOfMeetUp < DateTime.Now)
+            {
+                continue;
+            }else
+            {
+            <tr>
+                <td><a href="/meetup/view/@i.MeetUpId">@i.Title</a></td>
+                <td>@i.DateOfMeetUp</td>
+                <td>@i.Duration @i.DurationHoursDays</td>
+                <td>@i.Host.FirstName</td>
+                <td>@i.GuestList.Count</td>
+                @if (ViewBag.UserId == i.UserId)
+                {
+                    <td>
+                        <form action="/deleteMeetUp" method="post">
+                            <input type="hidden" name="MeetUpId" value="@i.MeetUpId">
+                            <input type="submit" class="btn btn-link" value="Delete">
+                        </form>
+                        
+                    </td>
+                }
+                else
+                {
+                    if (i.GuestList.Any(g => g.UserId == ViewBag.UserId))
+                    {
+                        <td>
+                            <form action="/removeguest" method="post">
+                            <input type="hidden" name="MeetUpId" value="@i.MeetUpId">
+                            <input type="hidden" name="UserId" value="@ViewBag.UserId">
+                            <input type="submit" class="btn btn-link" value="Leave">
+                            </form>
+                        </td>
+                    }
+                    else
+                    {
+                        <td>
+                            <form action="/addguest" method="post">
+                            <input type="hidden" name="MeetUpId" value="@i.MeetUpId">
+                            <input type="hidden" name="UserId" value="@ViewBag.UserId">
+                            <input type="submit" class="btn btn-link" value="Join">
+                            </form>
+                        </td>
+                    }
+                }
+            </tr>
+            }
+        }
+
+    </tbody>
+</table>
+<a href="/meetups/new" class="btn btn-success">Add New Activity</a>

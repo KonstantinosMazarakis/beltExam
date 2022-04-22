@@ -1,0 +1,26 @@
+<h1 class="text-start">Dojo Meet Up Center</h1>
+<div class="d-flex login">
+    <a href="/dashboard" class="mr-4">Home</a>
+    <form action="/users/logout" method="post">
+        <input type="submit" class="btn btn-danger" value="Logout">
+    </form>
+</div>
+<hr>
+<h3 class="mb-4">@ViewBag.MeetUpInfo.Title</h3>
+<form action="/addguest" method="post" class="fix">
+    <input type="hidden" name="MeetUpId" value="@ViewBag.MeetUpInfo.MeetUpId">
+    <input type="hidden" name="UserId" value="@ViewBag.UserId">
+    <input type="submit" class="btn btn-info" value="Join">
+</form>
+<ul>
+    <li>Event Coordonator: @ViewBag.MeetUpInfo.Host.FirstName</li>
+    <li>Description: @ViewBag.MeetUpInfo.Description</li>
+    <li>Participants: 
+        <ul>
+            @foreach (var i in ViewBag.List.GuestList)
+            {
+                <li>@i.User.FirstName @i.User.LastName</li>
+            }
+        </ul>
+    </li>
+</ul>

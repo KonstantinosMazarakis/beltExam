@@ -1,0 +1,12 @@
+@model LoginUser
+<form class="d-flex frm" action="/users/login" method="post">
+    <div class="one">
+        <h2>Login</h2>
+        <label class="d-block">Email: </label>
+        <span class="text-danger d-block" asp-validation-for="LoginEmail"></span>
+        <input asp-for="LoginEmail">
+        <label class="d-block">Password: </label>
+        <input asp-for="LoginPassword">
+        <input type="submit" class="d-block sbmt" value="Login">
+    </div>
+</form>

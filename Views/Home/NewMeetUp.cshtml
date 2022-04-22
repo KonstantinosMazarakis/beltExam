@@ -1,0 +1,30 @@
+@model MeetUp
+<h1 class="text-start">Dojo Meet Up Center</h1>
+<div class="d-flex login">
+    <a href="/dashboard" class="mr-4">Home</a>
+    <form action="/users/logout" method="post">
+        <input type="submit" class="btn btn-danger" value="Logout">
+    </form>
+</div>
+<hr>
+<h3>Create a Meet Up</h3>
+<form class="mt-5" action="/meetup/create/post" method="post">
+    <label class="d-block mt-2">Title: </label>
+    <span class="text-danger d-block" asp-validation-for="Title"></span>
+    <input asp-for="Title">
+    <label class="d-block mt-2">Date and Time: </label>
+    <span class="text-danger d-block" asp-validation-for="DateOfMeetUp"></span>
+    <input asp-for="DateOfMeetUp">
+    <label class="d-block mt-2">Duration: </label>
+    <span class="text-danger d-block" asp-validation-for="Duration"></span>
+    <span class="text-danger d-block" asp-validation-for="DurationHoursDays"></span>
+    <input asp-for="Duration">
+    <select class="inline-" asp-for="DurationHoursDays">
+        <option value="Minutes">Minutes</option>
+        <option value="Days">Days</option>
+    </select>
+    <label class="d-block mt-2">Description: </label>
+    <span class="text-danger d-block" asp-validation-for="Description"></span>
+    <textarea cols="30" rows="10" asp-for="Description"></textarea>
+    <input type="submit" class="btn btn-success mt-4 d-block" value="Create Meet Up">
+</form>
