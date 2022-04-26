@@ -1,5 +1,5 @@
 {
-  "FilePath": "c:\\CodingDojo\\c#\\test boilerPlate\\beltExam\\beltExam.csproj",
+  "FilePath": "c:\\CodingDojo\\projects\\MeetUp\\beltExam.csproj",
   "Configuration": {
     "ConfigurationName": "MVC-3.0",
     "LanguageVersion": "3.0",
@@ -14402,58 +14402,58 @@
   "RootNamespace": "beltExam",
   "Documents": [
     {
-      "FilePath": "c:\\CodingDojo\\c#\\test boilerPlate\\beltExam\\Views\\Home\\Privacy.cshtml",
-      "TargetPath": "Views\\Home\\Privacy.cshtml",
-      "FileKind": "mvc"
-    },
-    {
-      "FilePath": "c:\\CodingDojo\\c#\\test boilerPlate\\beltExam\\Views\\_ViewStart.cshtml",
-      "TargetPath": "Views\\_ViewStart.cshtml",
-      "FileKind": "mvc"
-    },
-    {
-      "FilePath": "c:\\CodingDojo\\c#\\test boilerPlate\\beltExam\\Views\\Home\\Index.cshtml",
-      "TargetPath": "Views\\Home\\Index.cshtml",
-      "FileKind": "mvc"
-    },
-    {
-      "FilePath": "c:\\CodingDojo\\c#\\test boilerPlate\\beltExam\\Views\\_ViewImports.cshtml",
+      "FilePath": "c:\\CodingDojo\\projects\\MeetUp\\Views\\_ViewImports.cshtml",
       "TargetPath": "Views\\_ViewImports.cshtml",
       "FileKind": "mvc"
     },
     {
-      "FilePath": "c:\\CodingDojo\\c#\\test boilerPlate\\beltExam\\Views\\Home\\InfoMeetUp.cshtml",
-      "TargetPath": "Views\\Home\\InfoMeetUp.cshtml",
+      "FilePath": "c:\\CodingDojo\\projects\\MeetUp\\Views\\_ViewStart.cshtml",
+      "TargetPath": "Views\\_ViewStart.cshtml",
       "FileKind": "mvc"
     },
     {
-      "FilePath": "c:\\CodingDojo\\c#\\test boilerPlate\\beltExam\\Views\\Home\\Dashboard.cshtml",
-      "TargetPath": "Views\\Home\\Dashboard.cshtml",
-      "FileKind": "mvc"
-    },
-    {
-      "FilePath": "c:\\CodingDojo\\c#\\test boilerPlate\\beltExam\\Views\\Shared\\_ValidationScriptsPartial.cshtml",
-      "TargetPath": "Views\\Shared\\_ValidationScriptsPartial.cshtml",
-      "FileKind": "mvc"
-    },
-    {
-      "FilePath": "c:\\CodingDojo\\c#\\test boilerPlate\\beltExam\\Views\\Shared\\Error.cshtml",
-      "TargetPath": "Views\\Shared\\Error.cshtml",
-      "FileKind": "mvc"
-    },
-    {
-      "FilePath": "c:\\CodingDojo\\c#\\test boilerPlate\\beltExam\\Views\\Shared\\_Layout.cshtml",
-      "TargetPath": "Views\\Shared\\_Layout.cshtml",
-      "FileKind": "mvc"
-    },
-    {
-      "FilePath": "c:\\CodingDojo\\c#\\test boilerPlate\\beltExam\\Views\\Home\\_Login.cshtml",
+      "FilePath": "c:\\CodingDojo\\projects\\MeetUp\\Views\\Home\\_Login.cshtml",
       "TargetPath": "Views\\Home\\_Login.cshtml",
       "FileKind": "mvc"
     },
     {
-      "FilePath": "c:\\CodingDojo\\c#\\test boilerPlate\\beltExam\\Views\\Home\\NewMeetUp.cshtml",
+      "FilePath": "c:\\CodingDojo\\projects\\MeetUp\\Views\\Home\\Privacy.cshtml",
+      "TargetPath": "Views\\Home\\Privacy.cshtml",
+      "FileKind": "mvc"
+    },
+    {
+      "FilePath": "c:\\CodingDojo\\projects\\MeetUp\\Views\\Home\\Dashboard.cshtml",
+      "TargetPath": "Views\\Home\\Dashboard.cshtml",
+      "FileKind": "mvc"
+    },
+    {
+      "FilePath": "c:\\CodingDojo\\projects\\MeetUp\\Views\\Shared\\Error.cshtml",
+      "TargetPath": "Views\\Shared\\Error.cshtml",
+      "FileKind": "mvc"
+    },
+    {
+      "FilePath": "c:\\CodingDojo\\projects\\MeetUp\\Views\\Home\\Index.cshtml",
+      "TargetPath": "Views\\Home\\Index.cshtml",
+      "FileKind": "mvc"
+    },
+    {
+      "FilePath": "c:\\CodingDojo\\projects\\MeetUp\\Views\\Home\\NewMeetUp.cshtml",
       "TargetPath": "Views\\Home\\NewMeetUp.cshtml",
+      "FileKind": "mvc"
+    },
+    {
+      "FilePath": "c:\\CodingDojo\\projects\\MeetUp\\Views\\Shared\\_ValidationScriptsPartial.cshtml",
+      "TargetPath": "Views\\Shared\\_ValidationScriptsPartial.cshtml",
+      "FileKind": "mvc"
+    },
+    {
+      "FilePath": "c:\\CodingDojo\\projects\\MeetUp\\Views\\Home\\InfoMeetUp.cshtml",
+      "TargetPath": "Views\\Home\\InfoMeetUp.cshtml",
+      "FileKind": "mvc"
+    },
+    {
+      "FilePath": "c:\\CodingDojo\\projects\\MeetUp\\Views\\Shared\\_Layout.cshtml",
+      "TargetPath": "Views\\Shared\\_Layout.cshtml",
       "FileKind": "mvc"
     }
   ],

@@ -907,11 +907,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\CodingDojo\\c#\\test boilerPlate\\beltExam\\beltExam.csproj",
+      "projectUniqueName": "C:\\CodingDojo\\projects\\MeetUp\\beltExam.csproj",
       "projectName": "beltExam",
-      "projectPath": "C:\\CodingDojo\\c#\\test boilerPlate\\beltExam\\beltExam.csproj",
+      "projectPath": "C:\\CodingDojo\\projects\\MeetUp\\beltExam.csproj",
       "packagesPath": "C:\\Users\\Kirito\\.nuget\\packages\\",
-      "outputPath": "C:\\CodingDojo\\c#\\test boilerPlate\\beltExam\\obj\\",
+      "outputPath": "C:\\CodingDojo\\projects\\MeetUp\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\Kirito\\AppData\\Roaming\\NuGet\\NuGet.Config"
