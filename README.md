@@ -1,11 +1,7 @@
 # Three Game Series
 
 This is a Full stack web REACT - MERN application who the user can add, delete and take attendance for players to a 3 game series.
-
-## Images
-
-<img src="https://www.kmazarakis.com/images/projects/three_game_series/1.PNG" width="50" height="50">
-
+<img src="https://www.kmazarakis.com/images/projects/three_game_series/1.PNG" width="100" height="100">
 ## Getting Started
 
 ### Dependencies
