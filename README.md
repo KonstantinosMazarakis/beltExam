@@ -16,9 +16,3 @@ This is a Full stack web REACT - MERN application who the user can add, delete a
 
 <img src="https://www.kmazarakis.com/images/projects/three_game_series/5.PNG" width="1200" height="500">
 
-## Getting Started
-
-### Dependencies
-
-* Describe any prerequisites, libraries, OS version, etc., needed before installing program.
-* ex. Windows 10
